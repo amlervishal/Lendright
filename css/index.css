@@ -37,7 +37,6 @@ a{
 a:hover{
     color: orange;
     font-family: 'Comfortaa', sans-serif;
-    font-size: 15px;
     font-weight: 300;
 }
 
@@ -126,6 +125,7 @@ h6 {
     background-position: fixed;
     z-index: -100;
     padding-top: 12vh;
+    padding-inline: 15vh;
     
 }
 
@@ -143,11 +143,12 @@ h6 {
     display: flex;
     color: antiquewhite;
     justify-content: center;
+    font-size: 15px;
 }
 
 .about-layout {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     padding: 0 10vh 0 10vh;
@@ -157,7 +158,8 @@ h6 {
     display: flex;
     color: antiquewhite;
     justify-content: left;
-    line-height: 2em;
+    line-height: 1.5em;
+    font-size: 15px;
 }
 
 .about-layout li {
@@ -248,7 +250,7 @@ h6 {
 .lenders {
     height: auto;
     display: flex;
-    padding-top: -20vh;
+    padding-top: 0;
     padding-bottom: 10vh;
     padding-inline: 15vh;
     flex-direction: column;
@@ -258,7 +260,7 @@ h6 {
     background-image: url(../img/hero@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
+    
     z-index: -100;
 }
 
@@ -268,9 +270,9 @@ h6 {
 }
 
 .team-work {
-    width: 40vw;
+    width: 25vw;
     height: auto;
-    padding: 2rem;
+    padding: 0rem;
     transition-timing-function: ease-out;
 }
 
@@ -399,21 +401,22 @@ th, tr, td {
 .document-cards {
     display: flex;
     flex-direction: row;
-    margin: 1.5rem;
+    margin: .75rem;
     padding: .75rem;
-
+    margin-inline: 10vh;
+    
     border-radius: 19px;
     background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 18.74%, rgba(255, 255, 255, 0.00) 97.85%);
-    box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.25);
-    
+    box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.25); 
 }
 
 .document-cards-01 {
     display: flex;
     flex-direction: column;
-    margin: .5rem;
+    margin: .75rem;
     padding: 1rem;
     padding-inline: 3rem;
+    margin-inline: 10vh;
     
 
     border-radius: 19px;
@@ -425,7 +428,7 @@ th, tr, td {
 .application {
     height: 100vh;
     display: flex;
-    padding-inline: 10vh;
+    padding-inline: 15vh;
     padding-top: 15vh;
     padding-bottom: 10rem;
     flex-direction: column;
@@ -488,7 +491,7 @@ th, tr, td {
     background-color: #ece0e030;
     height: 48px;
     :hover{
-        color: #fff;
+        color:orange;
         background-color: #edeeefaf;
     }
 
@@ -584,12 +587,14 @@ th, tr, td {
     }
 
     .about {
-        padding: 8rem 0 8rem 0;
+        padding-top: 15vh;
+        padding-bottom: 0;
+        padding-inline: 5vh;
     }
 
     .about-layout {
         flex-direction: column;
-        padding: 0 5vw 0 5vw;
+        padding: 0;
         line-height: 1;
     }
 
@@ -641,6 +646,7 @@ th, tr, td {
 
     .team-work {
         padding: 0;
+        width: 40vw;
     }
 
     .lenders {
@@ -729,10 +735,10 @@ th, tr, td {
         padding: 16px 14px 18px;
         color: antiquewhite;
         box-shadow: inset 0 0 0 2px antiquewhite;
-        background-color: transparent;
+        background-color: #ece0e030;;
         height: 48px;
         :hover{
-            color: #fff;
+            color: orange;
             background-color: #edeeefaf;
         }
     
@@ -840,7 +846,6 @@ th, tr, td {
     }
 
     .btn-01 {
-
         display: inline-block;
         outline: none;
         cursor: pointer;
@@ -859,13 +864,25 @@ th, tr, td {
         padding: 16px 14px 18px;
         color: antiquewhite;
         box-shadow: inset 0 0 0 2px antiquewhite;
-        background-color: transparent;
+        background-color: #ece0e030;
         height: 48px;
         :hover{
-            color: #fff;
+            color: orange;
             background-color: #edeeefaf;
         }
     
+    }
+
+    .card {
+        width: 30vh;
+    }
+
+    .document-cards {
+        margin-inline: 2vw;
+    }
+
+    .document-cards-01 {
+        margin-inline: 2vw;
     }
 
     .privacy-policy {
@@ -953,7 +970,7 @@ th, tr, td {
         inset: 10% 5% 5% 5%;
         flex-direction: column;
         padding: 10% 5% 5% 5%;
-        background: #00000078;
+        background: #000000b3;
         border-radius: 15px;
         backdrop-filter: blur(5px);
         box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
