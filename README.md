@@ -1,2 +1,0 @@
-# Lendright
- website
