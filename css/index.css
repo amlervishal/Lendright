@@ -105,7 +105,7 @@ h6 {
     flex-direction: column;
     align-items: center;
     padding-top: 40vh;
-    background-image: url(/img/hero@2x.png);
+    background-image: url(../img/hero@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
@@ -120,7 +120,7 @@ h6 {
     flex-wrap: nowrap;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    background-image: url(/img/hero@2x.png);
+    background-image: url(../img/hero@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
@@ -203,7 +203,7 @@ h6 {
     flex-wrap: nowrap;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    background-image: url(/img/hero@2x.png);
+    background-image: url(../img/hero@2x.png);
     background-repeat: repeat;
     z-index: -100;
     
@@ -218,7 +218,7 @@ h6 {
     flex-wrap: nowrap;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    background-image: url(/img/hero@2x.png);
+    background-image: url(../img/hero@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
@@ -255,7 +255,7 @@ h6 {
     flex-wrap: nowrap;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    background-image: url(/img/hero@2x.png);
+    background-image: url(../img/hero@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
@@ -432,7 +432,7 @@ th, tr, td {
     flex-wrap: nowrap;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    background-image: url(/img/hero@2x.png);
+    background-image: url(../img/hero@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
@@ -505,7 +505,7 @@ th, tr, td {
     background-size: cover;
     background-repeat: repeat;
   
-    background: url(/img/hero@2x.png);
+    background: url(../img/hero@2x.png);
     gap: var(--gap, 2rem);
 }
 
@@ -578,7 +578,7 @@ th, tr, td {
     }
 
     .hero {
-        background-image: url(/img/hero-2.png);
+        background-image: url(../img/hero-2.png);
         background-position: center;
         gap: var(--gap, 4rem);
     }
@@ -615,7 +615,7 @@ th, tr, td {
         padding-top: 20vh;
         overflow: auto;
         padding-bottom: 10vh;
-        background-image: url(/img/hero-2.png);
+        background-image: url(../img/hero-2.png);
         overflow-y: auto;
     }
 
@@ -654,7 +654,7 @@ th, tr, td {
         padding-top: 8rem;
         padding-bottom: 6rem;
         padding-inline: 2vw;
-        background-image: url(/img/hero-2.png);
+        background-image: url(../img/hero-2.png);
         background-repeat: repeat-y;
         width: 100vw;
     }
@@ -749,7 +749,7 @@ th, tr, td {
         overflow: auto;
         background-repeat: repeat;
         background-size: cover;
-        background: url(/img/hero-2.png);
+        background: url(../img/hero-2.png);
         gap: var(--gap, .5rem);
     }
     
@@ -878,7 +878,7 @@ th, tr, td {
         flex-wrap: nowrap;
         justify-content: flex-start;
         flex-wrap: nowrap;
-        background-image: url(/img/hero@2x.png);
+        background-image: url(../img/hero@2x.png);
         background-repeat: repeat;
         z-index: -100;
         
@@ -888,7 +888,7 @@ th, tr, td {
         padding-top: 8rem;
         padding-bottom: 6rem;
         padding-inline: 5vw;
-        background-image: url(/img/hero-2.png);
+        background-image: url(../img/hero-2.png);
         background-repeat: repeat-y;
         width: 100vw;
     }
@@ -972,7 +972,7 @@ th, tr, td {
         display: block;
         position: absolute;
         z-index: 1000;
-        background: url(/img/vector.svg);
+        background: url(../img/vector.svg);
         background-repeat: no-repeat;
         background-size: contain;
         width: 2rem;

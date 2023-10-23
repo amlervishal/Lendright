@@ -43,23 +43,23 @@
         <title>Lendright</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="css/index.css">
 
-        <script src="/nav.js" defer></script>
+        <script src="nav.js" defer></script>
         
     </head>
     <body>
        <header class="primary-header flex">
-        <a class="logo-txt flex" href="index.html">lendright <img class="logo" src="/img/vector-1.svg" alt=""></a>
+        <a class="logo-txt flex" href="index.html">lendright <img class="logo" src="img/vector-1.svg" alt=""></a>
         <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button>
             <nav>
                 <ul id="primary-navigation" data-visible="false" class="primary-navigation flex gap1">
-                    <li class="active" aria-hidden="true"><a href="/index.html">HOME</a></li>
-                    <li class="active" aria-hidden="true"><a href="/about.html">ABOUT</a></li>
-                    <li class="active" aria-hidden="true"><a href="/services.html">SERVICES</a></li>
+                    <li class="active" aria-hidden="true"><a href="index.html">HOME</a></li>
+                    <li class="active" aria-hidden="true"><a href="about.html">ABOUT</a></li>
+                    <li class="active" aria-hidden="true"><a href="services.html">SERVICES</a></li>
                     <li class="active" aria-hidden="true"><a href="application.html">PROCESS</a></li>
-                    <li class="active" aria-hidden="true"><a href="/documents.html">DOCUMENTS</a></li>
-                    <li class="active" aria-hidden="true"><a href="/contactus.php">CONTACT</a></li>
+                    <li class="active" aria-hidden="true"><a href="documents.html">DOCUMENTS</a></li>
+                    <li class="active" aria-hidden="true"><a href="contactus.php">CONTACT</a></li>
                 </ul>
             </nav>
        </header> 
@@ -117,11 +117,11 @@
 
    <footer class="footer">
         <div>
-            <a href="/contactus.php">Contact Us</a>
+            <a href="contactus.php">Contact Us</a>
         </div>
 
         <div>
-            <a href="/privacy-policy.html">Privacy Policy</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
         </div>
 
         <div>
