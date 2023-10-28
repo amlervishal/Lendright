@@ -918,6 +918,16 @@ th, tr, td {
         font-size: 12px;
         font-weight: 300;
     }
+
+    .about {
+        background-image: url(../img/hero-2.png);
+        padding-top: 12vh;
+        padding-inline: 5vw;
+    }
+
+    table {
+        font-size: 9px;
+    }
 }
 
 
