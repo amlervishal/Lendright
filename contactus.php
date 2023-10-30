@@ -22,7 +22,10 @@
             $body .= "From: ".$userName. "\r\n";
             $body .= "Email: ".$userEmail. "\r\n";
             $body .= "Mobile: ".$userMobile. "\r\n";
-            $body .= "Subject: ".$messageSubject. "\r\n";
+            $body .= "Country: ".$userCountry. "\r\n";
+            $body .= "Level: ".$userLevel. "\r\n";
+            $body .= "Nationality: ".$userNationality. "\r\n";
+            $body .= "City: ".$userCity. "\r\n";
             $body .= "Message: ".$message. "\r\n";
 
             mail($to, $emailSubject, $body, $headers);
@@ -71,7 +74,7 @@
                     <p class="small-text">Send in your querry and we will get back to you at the earliest</p>
                 </div>
                 <div class="">
-                    <form action="contact.html" method="POST" class="form">
+                    <form action="contactus.php" method="POST" class="form">
 
                         <div class="form-group">
                             <label for="name" class="form-label">Your Name </label>
@@ -89,14 +92,28 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="subject" class="form-label ">Subject</label>
-                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Enquiry" tabindex="4" required>
+                            <label for="nationality" class="form-label ">Nationality</label>
+                            <input type="text" class="form-control" id="nationality" name="Nationality" placeholder="Nationality" tabindex="4" required>
                         </div>
 
+                        <div class="form-group">
+                            <label for="country" class="form-label ">Enquiry for which Country</label>
+                            <input type="text" class="form-control"  id="country" name="country" placeholder="Name of Country.." tabindex="5"></input>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="city" class="form-label ">City</label>
+                            <input type="text" class="form-control"  id="city" name="city" placeholder="City.." tabindex="6"></input>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="level" class="form-label ">Undergraduate or Graduate</label>
+                            <input type="text" class="form-control"  id="level" name="level" placeholder="Undergraduate or Graduate.." tabindex="7"></input>
+                        </div>
 
                         <div class="form-group">
                             <label for="message" class="form-label ">Message</label>
-                            <textarea class="form-control"  id="message" name="message" placeholder="Message.." tabindex="5"></textarea>
+                            <textarea type="text" class="form-control"  id="message" name="message" placeholder="Message.." tabindex="8"></textarea>
                         </div>
 
                         <div class="text-center padding-5 ">
