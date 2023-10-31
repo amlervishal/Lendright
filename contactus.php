@@ -78,12 +78,12 @@
 
                         <div class="form-group">
                             <label for="name" class="form-label">Your Name </label>
-                            <input type="name" class="form-control" id="name" name="name" placeholder="Jane Doe" tabindex="1" required>
+                            <input type="text" class="form-control" id="name" name="name" autocomplete="given-name" placeholder="Jane Doe" tabindex="1" required>
                         </div>
 
                         <div class="form-group">
                             <label for="email" class="form-label  <?= $invalid_class_name ?? "" ?>">Your Email</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="jane@doe.com" tabindex="2" required>
+                            <input type="email" class="form-control" id="email" name="email" autocomplete="off" placeholder="jane@doe.com" tabindex="2" required>
                         </div>
 
                         <div class="form-group">
@@ -98,7 +98,7 @@
 
                         <div class="form-group">
                             <label for="country" class="form-label ">Enquiry for which Country</label>
-                            <input type="text" class="form-control"  id="country" name="country" placeholder="Name of Country.." tabindex="5"></input>
+                            <input type="text" class="form-control"  id="country" name="country" autocomplete="off" placeholder="Name of Country.." tabindex="5"></input>
                         </div>
 
                         <div class="form-group">
