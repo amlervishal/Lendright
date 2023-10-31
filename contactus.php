@@ -78,7 +78,7 @@
 
                         <div class="form-group">
                             <label for="name" class="form-label">Your Name </label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" tabindex="1" required>
+                            <input type="name" class="form-control" id="name" name="name" placeholder="Jane Doe" tabindex="1" required>
                         </div>
 
                         <div class="form-group">
@@ -88,7 +88,7 @@
 
                         <div class="form-group">
                             <label for="mobile" class="form-label ">Contact Number</label>
-                            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile" tabindex="3" required>
+                            <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Mobile" tabindex="3" required>
                         </div>
 
                         <div class="form-group">
