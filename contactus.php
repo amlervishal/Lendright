@@ -13,8 +13,8 @@
             $message = $_POST['message'];
 
             // info@lendright.in
-            $to = "amlervishal@gmail.com";
-            $headers = 'From: archsolutions3d@gmail.com'. "\r\n";
+            $to = "info@lendright.in";
+            $headers = 'From: info@lendright.in'. "\r\n";
             $emailSubject = "LENDRIGHT ENQUIRY FORM: ". $messageSubject;
             $body = "";
 
