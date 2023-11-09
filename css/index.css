@@ -26,6 +26,13 @@ body{
     gap: var(--gap, 1rem);
 }
 
+.text {
+    letter-spacing: 0.1em;
+    font-size: 18px !important;
+    text-align: center;
+}
+
+
 a{
     color: antiquewhite;
     font-family: 'Comfortaa', sans-serif;
@@ -129,6 +136,11 @@ h6 {
     
 }
 
+.about hr{
+    margin-inline: 20vw;
+    margin-block: 5vh;
+}
+
 .about h1 {
     color: antiquewhite;
     font-family: 'Comfortaa', sans-serif;
@@ -192,6 +204,38 @@ h6 {
     margin-left: 2em;
     font-size: small;
     font-weight: 200;
+}
+
+.card-layout {
+    display: flex;
+    margin-inline: 5vw;
+}
+
+.card-layout hr{
+    width: 50vw;
+}
+
+.card-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    margin: 1em;
+    padding: 2em;
+    gap: var(--gap, 2rem);
+    flex-basis: 100%;
+}
+
+.card-01:hover {
+    background-color: #1e0334a7;
+   
+    border: 1px solid #fff;
+    border-radius: 2em;
+}
+
+.card-01 img {
+    width: 60px;
+    height: auto;
 }
 
 .privacy-policy {
@@ -550,6 +594,38 @@ th, tr, td {
    .services h1 {
     font-size: 40px;
    }
+
+   .card-layout {
+    display: flex;
+    margin-inline: 0;
+    }
+
+    .card-layout hr{
+        width: 80vw;
+    }
+
+    .card-01 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: #fff;
+        margin: .5em;
+        padding: 1em;
+        gap: var(--gap, 2rem);
+        flex-basis: 100%;
+    }
+
+    .card-01:hover {
+        background-color: #1e0334a7;
+    
+        border: 1px solid #fff;
+        border-radius: 2em;
+    }
+
+    .card-01 img {
+        width: 40px;
+        height: auto;
+    }
   
 }
 
@@ -874,6 +950,12 @@ th, tr, td {
     
     }
 
+    .card-layout {
+        display: flex;
+        margin-inline: 0;
+        flex-direction: column;
+        }
+
     .card {
         width: 30vh;
     }
@@ -924,6 +1006,8 @@ th, tr, td {
         background-image: url(../img/hero-2.png);
         padding-top: 12vh;
         padding-inline: 5vw;
+        overflow: auto;
+        padding-bottom: 15vh;
     }
 
     table {
