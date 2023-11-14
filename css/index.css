@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font-family-comfortaa);
+    font-family: var(--font-family-poppins);
+    
 }
 
 body{
     /* height: 100vh; */
     background-color: #fff;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     min-height: 100vh;
     line-height: 1.5;
@@ -27,46 +29,40 @@ body{
 }
 
 .text {
+    color: #fff;
     letter-spacing: 0.1em;
     font-size: 18px !important;
     text-align: center;
+    padding: 2svh;
 }
 
 
 a{
-    color: antiquewhite;
-    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 300;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
 a:hover{
     color: orange;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
 
 li {
    list-style: none;
-   color: antiquewhite;
+   color: #fff;
    text-decoration: none; 
    
 }
 
-h1 {
-    color: antiquewhite;
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 80px;
-    font-weight: 500;
-    text-align: center;
-    padding: 5px;
-    letter-spacing: .05em;
-}
 
 h2 {
-    color: antiquewhite;
-    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -75,48 +71,34 @@ h2 {
 }
 
 h3 {
-    color: antiquewhite;
-    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 600;
     text-align: center;
     padding: 5px;
     letter-spacing: .1em;
-    padding-bottom: 2rem;
+    
 }
 
 h4 {
-    color: antiquewhite;
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
     text-align: center;
     padding: 5px;
     letter-spacing: .1em;
 }
 
 h6 {
-    color: antiquewhite;
-    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 300;
     text-align: center;
     padding: 15px;
     letter-spacing: .1em;
-}
-
-.hero {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 40vh;
-    background-image: url(../img/hero@2x.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fixed;
-    z-index: -100;
-    gap: var(--gap, 5rem);
 }
 
 .about {
@@ -142,8 +124,8 @@ h6 {
 }
 
 .about h1 {
-    color: antiquewhite;
-    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     font-weight: 500;
     text-align: center;
@@ -153,14 +135,14 @@ h6 {
 
 .about p {
     display: flex;
-    color: antiquewhite;
+    color: #fff;
     justify-content: center;
     font-size: 15px;
 }
 
 .about-layout {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     padding: 0 10vh 0 10vh;
@@ -168,7 +150,7 @@ h6 {
 
 .about-layout p {
     display: flex;
-    color: antiquewhite;
+    color: #fff;
     justify-content: left;
     line-height: 1.5em;
     font-size: 15px;
@@ -192,7 +174,7 @@ h6 {
 }
 
 .small-text {
-    color: antiquewhite;
+    color: #fff;
     list-style-type: decimal-leading-zero;
     padding-inline: 1em;
     font-size: small;
@@ -209,6 +191,7 @@ h6 {
 .card-layout {
     display: flex;
     margin-inline: 5vw;
+    margin-top: 5svh;
 }
 
 .card-layout hr{
@@ -264,7 +247,7 @@ h6 {
     flex-wrap: nowrap;
     justify-content: flex-start;
     flex-wrap: nowrap;
-    background-image: url(../img/hero@2x.png);
+    background-image: url(../img/bg002.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
@@ -273,8 +256,8 @@ h6 {
 }
 
 .services h1 {
-        color: antiquewhite;
-        font-family: 'Comfortaa', sans-serif;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
         font-size: 60px;
         font-weight: 500;
         text-align: center;
@@ -284,7 +267,7 @@ h6 {
 
 .services p {
     display: flex;
-    color: antiquewhite;
+    color: #fff;
     justify-content: left;
     line-height: 1.5em;
     font-size: 15px;
@@ -314,21 +297,24 @@ h6 {
 }
 
 .team-work {
-    width: 25vw;
+    width: 60vw;
     height: auto;
-    padding: 0rem;
+    padding: 2px;
     transition-timing-function: ease-out;
+    border-radius: 1em;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.417), rgba(0, 0, 0, 0.54));
+
 }
 
 .text-right {
     display: flex;
-    color: antiquewhite;
+    color: #fff;
     justify-content: flex-end;
 }
 
 .text-center {
     display: flex;
-    color: antiquewhite;
+    color: #fff;
     justify-content: center;
 }
 
@@ -371,7 +357,7 @@ h6 {
 }
 
 footer p {
-    color: antiquewhite;
+    color: #fff;
     font-size: 12px;
     font-weight: 200;
     letter-spacing: 0.5px;
@@ -380,7 +366,7 @@ footer p {
 }
 
 footer a {
-    color: antiquewhite;
+    color: #fff;
     font-size: 12px;
     font-weight: 200;
     letter-spacing: 0.5px;
@@ -425,21 +411,21 @@ footer a {
 }
 
 table {
-    color: antiquewhite;
+    color: #fff;
     background: white rgba(255, 255, 255, 0.25);
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 200;
     letter-spacing: 0.5px;
     opacity: .8;
     text-align: left;
-    border: 1px solid antiquewhite;
+    border: 1px solid #fff;
     width: 80%;
     margin: auto;
 }
 
 th, tr, td {
     padding: 10px;  
-    border: 1px solid antiquewhite; 
+    border: 1px solid #fff; 
 }
 
 .document-cards {
@@ -489,8 +475,8 @@ th, tr, td {
 }
 
 .application h1 {
-        color: antiquewhite;
-        font-family: 'Comfortaa', sans-serif;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
         font-size: 40px;
         font-weight: 500;
         text-align: center;
@@ -500,7 +486,7 @@ th, tr, td {
 
 .application p {
     display: flex;
-    color: antiquewhite;
+    color: #fff;
     justify-content: left;
     line-height: 2em;
     font-size: 15px;
@@ -530,8 +516,8 @@ th, tr, td {
     font-weight: 700;
     text-align: center;
     padding: 16px 14px 18px;
-    color: antiquewhite;
-    box-shadow: inset 0 0 0 2px antiquewhite;
+    color: #fff;
+    box-shadow: inset 0 0 0 2px #fff;
     background-color: #ece0e030;
     height: 48px;
     :hover{
@@ -562,7 +548,7 @@ th, tr, td {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: antiquewhite;
+    color: #fff;
     gap: var(--gap, .5rem);
     padding-top: .5rem;
 }
@@ -573,7 +559,7 @@ th, tr, td {
 }
 
 .form-label {
-    color: antiquewhite;
+    color: #fff;
     font-size: medium;
  
 }
@@ -616,14 +602,13 @@ th, tr, td {
     }
 
     .card-01:hover {
-        background-color: #1e0334a7;
-    
+        background-color: #ffffff42;
         border: 1px solid #fff;
-        border-radius: 2em;
+        border-radius: 1em;
     }
 
     .card-01 img {
-        width: 40px;
+        width: 30px;
         height: auto;
     }
   
@@ -638,16 +623,42 @@ th, tr, td {
     h2 {
         font-size: 25px;
         font-weight: 400;
+        letter-spacing: .1em;
     }
     
     h4 {
-        color: antiquewhite;
-        font-family: 'Comfortaa', sans-serif;
-        font-size: 20px;
-        font-weight: 300;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: 200;
         text-align: center;
         padding: 25px;
         letter-spacing: .1em;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 200; 
+        letter-spacing: 1px;
+    }
+
+    .card-layout {
+        display: flex;
+        margin-top: 2svh;
+        }
+
+    .text {
+        color: #fff;
+        letter-spacing: 0.1em;
+        font-size: 15px !important;
+        text-align: center;
+        padding: 2svh;
+    }
+
+    .card-01:hover {
+        background-color: #ffffff42;
+        border: 1px solid #fff;
+        border-radius: 1em;
     }
 
     .logo-02 {
@@ -657,11 +668,6 @@ th, tr, td {
         gap: var(--gap, 0rem);
     }
 
-    .hero {
-        background-image: url(../img/hero-2.png);
-        background-position: center;
-        gap: var(--gap, 4rem);
-    }
 
     .about {
         padding-top: 15vh;
@@ -697,7 +703,7 @@ th, tr, td {
         padding-top: 20vh;
         overflow: auto;
         padding-bottom: 10vh;
-        background-image: url(../img/hero-2.png);
+        background-image: url(../img/bg002.png);
         overflow-y: auto;
     }
 
@@ -710,7 +716,7 @@ th, tr, td {
 
     .services p {
         display: flex;
-        color: antiquewhite;
+        color: #fff;
         justify-content: left;
         line-height: 1.5em;
         font-size: 14px;
@@ -723,7 +729,7 @@ th, tr, td {
 
     .team-work {
         padding: 0;
-        width: 40vw;
+        width: 60vw;
     }
 
     .lenders {
@@ -743,8 +749,8 @@ th, tr, td {
     }
     
     .application h1 {
-            color: antiquewhite;
-            font-family: 'Comfortaa', sans-serif;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
             font-size: 40px;
             font-weight: 500;
             text-align: center;
@@ -754,7 +760,7 @@ th, tr, td {
     
     .application p {
         display: flex;
-        color: antiquewhite;
+        color: #fff;
         justify-content: left;
         line-height: 2em;
         font-size: 15px;
@@ -767,7 +773,7 @@ th, tr, td {
     }
     
     footer p {
-        color: antiquewhite;
+        color: #fff;
         font-size: 12px;
         font-weight: 200;
         letter-spacing: 0.5px;
@@ -776,7 +782,7 @@ th, tr, td {
     }
     
     footer a {
-        color: antiquewhite;
+        color: #fff;
         font-size: 10px;
         font-weight: 200;
         letter-spacing: 0.5px;
@@ -810,8 +816,8 @@ th, tr, td {
         font-weight: 700;
         text-align: center;
         padding: 16px 14px 18px;
-        color: antiquewhite;
-        box-shadow: inset 0 0 0 2px antiquewhite;
+        color: #fff;
+        box-shadow: inset 0 0 0 2px #fff;
         background-color: #ece0e030;;
         height: 48px;
         :hover{
@@ -841,7 +847,7 @@ th, tr, td {
         display: flex;
         flex-direction: column;
         align-items: center;
-        color: antiquewhite;
+        color: #fff;
         gap: var(--gap, .5rem);
         padding-top: .5rem;
     }
@@ -852,31 +858,49 @@ th, tr, td {
     }
     
     .form-label {
-        color: antiquewhite;
+        color: #fff;
         font-size: medium;
      
     }
 }
 
 @media (max-width: 500px) {
-    h1 {
+    .hero h1 {
         font-size: 40px;
         font-weight: 500;
     }
     
-    h2 {
-        font-size: 22px;
+    .hero h2 {
+        font-size: 18px;
         font-weight: 400;
     }
     
     h4 {
-        color: antiquewhite;
-        font-family: 'Comfortaa', sans-serif;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
         font-size: 14px;
         font-weight: 300;
         text-align: center;
         padding: 50px;
         letter-spacing: .1em;
+    }
+
+    h3 {
+        padding: .1em;
+    }
+
+    .text {
+        font-size: 14px !important;
+    }
+
+    .card-01 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: #fff;
+        padding: .5em;
+        gap: var(--gap, 1rem);
+        flex-basis: 100%;
     }
 
     .logo-02 {
@@ -894,7 +918,7 @@ th, tr, td {
     }
     
     footer p {
-        color: antiquewhite;
+        color: #fff;
         font-size: 10px;
         font-weight: 200;
         letter-spacing: 0.5px;
@@ -903,7 +927,7 @@ th, tr, td {
     }
     
     footer a {
-        color: antiquewhite;
+        color: #fff;
         font-size: 10px;
         font-weight: 200;
         letter-spacing: 0.5px;
@@ -920,6 +944,7 @@ th, tr, td {
         padding-top: 15vh;
         padding-bottom: 15vh;
         overflow: auto;
+        background-image: url(/img/bg004.png);
     }
 
     .btn-01 {
@@ -939,8 +964,8 @@ th, tr, td {
         font-weight: 700;
         text-align: center;
         padding: 16px 14px 18px;
-        color: antiquewhite;
-        box-shadow: inset 0 0 0 2px antiquewhite;
+        color: #fff;
+        box-shadow: inset 0 0 0 2px #fff;
         background-color: #ece0e030;
         height: 48px;
         :hover{
@@ -995,7 +1020,7 @@ th, tr, td {
 
     .application p {
         display: flex;
-        color: antiquewhite;
+        color: #fff;
         justify-content: left;
         line-height: 2em;
         font-size: 12px;
@@ -1011,7 +1036,8 @@ th, tr, td {
     }
 
     table {
-        font-size: 9px;
+        font-size: 12px;
+        font-weight: 200;
     }
 }
 
@@ -1028,8 +1054,8 @@ th, tr, td {
 }
 
 .logo-txt {
-    color: antiquewhite;
-    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
     font-size: 22px;
     font-weight: 300;
     text-align: center;
@@ -1045,8 +1071,8 @@ th, tr, td {
 }
 
 .primary-navigation {
-    color: antiquewhite;
-    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
     font-size: 22px;
     font-weight: 300;
     text-align: center;
@@ -1097,3 +1123,192 @@ th, tr, td {
 
 
 /* primary header */
+
+
+/* revised sections and fonts*/
+
+.section-2 {
+    height: 100svh;
+    background: url(/img/bg002.png);
+    background-size: cover;
+    padding-top: 12svh;
+    padding-bottom: 12svh;
+    padding-inline: 10svw;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start;
+}
+
+@media (max-width: 1000px) {
+    .section-2 {
+        background: url(/img/bg002.png);   
+    }
+}
+
+@media (max-width: 500px) {
+    .section-2 {
+        background: url(/img/bg004.png);   
+    }
+
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40vh;
+    background-image: url(../img/bg001.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    z-index: -100;
+    gap: var(--gap, 5rem);
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+@media (max-width: 1000px) {
+    .hero {
+        background-image: url(../img/bg001.png);
+        background-position: center;
+        gap: var(--gap, 4rem);
+    }
+}
+
+@media (max-width: 500px) {
+    .hero {
+        background-image: url(../img/bg003.png);
+        background-position: center;
+        gap: var(--gap, 4rem);
+    }
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: .05em;
+}
+
+.lendright-name {
+    font-family: 'Comfortaa', cursive, !important;
+}
+
+
+.section-3 {
+    height: 100svh;
+    background: url(/img/bg002.png);
+    background-size: cover;
+    padding-top: 12svh;
+    padding-bottom: 12svh;
+    padding-inline: 10svw;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: start;
+}
+
+@media (max-width: 1000px) {
+    .section-3 {
+        background: url(/img/bg002.png);   
+    }
+}
+
+@media (max-width: 500px) {
+    .section-3 {
+        background: url(/img/bg004.png); 
+        padding-inline: 2svh;  
+    }
+
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    letter-spacing: .1em;
+}
+
+.team-layout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 1rem;
+}
+
+.team-layout p {
+    color: #fff;
+}
+
+.div-80 {
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-layout li {
+    list-style-type: disc;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.text-2 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media (max-width: 800px) {
+    .team-layout li {
+        list-style-type: disc;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 200;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .text-2 {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 500px) {
+    .team-layout li {
+        list-style-type: disc;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 200;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .text-2 {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
