@@ -434,7 +434,10 @@ th, tr, td {
     margin: .75rem;
     padding: .75rem;
     margin-inline: 10vh;
-    
+    font-size: 14px;
+    line-height: 2em;
+    color: #fff;
+
     border-radius: 19px;
     background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 18.74%, rgba(255, 255, 255, 0.00) 97.85%);
     box-shadow: 0px 0px 50px 20px rgba(0, 0, 0, 0.25); 
@@ -447,7 +450,9 @@ th, tr, td {
     padding: 1rem;
     padding-inline: 3rem;
     margin-inline: 10vh;
-    
+    color: #fff;
+    font-size: 14px;
+    line-height: 2em;
 
     border-radius: 19px;
     background: linear-gradient(141deg, rgba(255, 255, 255, 0.25) 18.74%, rgba(255, 255, 255, 0.00) 97.85%);
@@ -539,7 +544,8 @@ th, tr, td {
     background-size: cover;
     background-repeat: repeat;
   
-    background: url(../img/hero@2x.png);
+    background-image: url(../img/bg001.png), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+    background-blend-mode: overlay;
     gap: var(--gap, 2rem);
 }
 
@@ -640,6 +646,7 @@ th, tr, td {
         font-size: 14px;
         font-weight: 200; 
         letter-spacing: 1px;
+        padding-block: 10px;
     }
 
     .card-layout {
@@ -838,8 +845,14 @@ th, tr, td {
         overflow: auto;
         background-repeat: repeat;
         background-size: cover;
-        background: url(../img/hero-2.png);
+        background-image: url(../img/bg002.png), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+        background-blend-mode: overlay;
         gap: var(--gap, .5rem);
+    }
+
+    .form-section h3 {
+        font-size: 30px;
+        padding-top: 2em;
     }
     
     .form-group {
@@ -898,7 +911,7 @@ th, tr, td {
         flex-direction: row;
         align-items: center;
         color: #fff;
-        padding: .5em;
+        padding: .3em;
         gap: var(--gap, 1rem);
         flex-basis: 100%;
     }
@@ -944,8 +957,14 @@ th, tr, td {
         padding-top: 15vh;
         padding-bottom: 15vh;
         overflow: auto;
-        background-image: url(/img/bg004.png);
+        background-image: url(../img/bg010.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+        background-blend-mode: overlay;
     }
+
+    .services h3{
+        font-size: 30px;
+    }
+   
 
     .btn-01 {
         display: inline-block;
@@ -991,6 +1010,7 @@ th, tr, td {
 
     .document-cards-01 {
         margin-inline: 2vw;
+        padding-inline: 5vw;
     }
 
     .privacy-policy {
@@ -1136,19 +1156,25 @@ th, tr, td {
     padding-inline: 10svw;
     scroll-behavior: smooth;
     overflow: auto;
-    scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
+    
+    
 }
 
 @media (max-width: 1000px) {
     .section-2 {
-        background: url(/img/bg002.png);   
+        background-image: url(../img/bg001.png), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+        background-blend-mode: overlay; 
     }
 }
 
 @media (max-width: 500px) {
     .section-2 {
-        background: url(/img/bg004.png);   
+        background-image: url(../img/bg010.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+        background-blend-mode: overlay; 
+    }
+
+    .section-2 h3{
+        font-size: 30px;
     }
 
 }
@@ -1159,21 +1185,22 @@ th, tr, td {
     flex-direction: column;
     align-items: center;
     padding-top: 40vh;
-    background-image: url(../img/bg001.png);
+    background-image: url(../img/bg001.png), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
     z-index: -100;
     gap: var(--gap, 5rem);
-    scroll-snap-align: start;
     scroll-behavior: smooth;
     overflow: auto;
-    scroll-snap-type: y mandatory;
+    
 }
 
 @media (max-width: 1000px) {
     .hero {
-        background-image: url(../img/bg001.png);
+        background-image: url(../img/bg001.png), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+        background-blend-mode: overlay;
         background-position: center;
         gap: var(--gap, 4rem);
     }
@@ -1181,7 +1208,8 @@ th, tr, td {
 
 @media (max-width: 500px) {
     .hero {
-        background-image: url(../img/bg003.png);
+        background-image: url(../img/bg010.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+        background-blend-mode: overlay;
         background-position: center;
         gap: var(--gap, 4rem);
     }
@@ -1217,14 +1245,21 @@ h1 {
 
 @media (max-width: 1000px) {
     .section-3 {
-        background: url(/img/bg002.png);   
+        background-image: url(../img/bg001.png), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+        background-blend-mode: overlay;  
     }
+    
 }
 
 @media (max-width: 500px) {
     .section-3 {
-        background: url(/img/bg004.png); 
+        background-image: url(../img/bg010.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
+        background-blend-mode: overlay;
         padding-inline: 2svh;  
+    }
+
+    .section-3 h3{
+       font-size: 30px;
     }
 
 }

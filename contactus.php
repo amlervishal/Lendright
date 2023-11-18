@@ -70,8 +70,8 @@
 
             <section class="form-section">
                 <div>
-                    <h4 class="text-center">Begin your credit search with lendright</h4>
-                    <p class="small-text">Send in your querry and we will get back to you at the earliest</p>
+                    <h3 class="text-center">Begin your credit search with lendright</h3>
+                    <p class="text">Send in your querry and we will get back to you at the earliest</p>
                 </div>
                 <div class="">
                     <form action="contactus.php" method="POST" class="form">
