@@ -7,52 +7,65 @@
         <title>Lendright</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/index.css">
-
+     
+       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+       
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
         <script src="nav.js" defer></script>
         
     </head>
     <body>
-        <header class="primary-header flex">
-            <a class="logo-txt flex" href="index.html">lendright <img class="logo" src="img/vector-1.svg" alt=""></a>
-            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button>
-                <nav>
-                    <ul id="primary-navigation" data-visible="false" class="primary-navigation flex gap1">
-                        <li class="active" aria-hidden="true"><a href="index.html">HOME</a></li>
-                        <li class="active" aria-hidden="true"><a href="about.html">ABOUT</a></li>
-                        <li class="active" aria-hidden="true"><a href="services.html">SERVICES</a></li>
-                        <li class="active" aria-hidden="true"><a href="application.html">PROCESS</a></li>
-                        <li class="active" aria-hidden="true"><a href="documents.html">DOCUMENTS</a></li>
-                        <li class="active" aria-hidden="true"><a href="contactus.php">CONTACT</a></li>
-                    </ul>
-                </nav>
-           </header> 
+      <header class="primary-header flex">
+        <a class="logo-1" href="index.html"> </a>  
 
-    <section class="section-2">
-        <h3>Application Process</h3>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"><span class="sr-only">Menu</span></button>
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation ">
+                    <li class="active" aria-hidden="true"><a href="index.html">HOME</a></li>
+                    <li class="active" aria-hidden="true"><a href="about.html">ABOUT</a></li>
+                    <li class="active" aria-hidden="true"><a href="services.html">SERVICES</a></li>
+                    <li class="active" aria-hidden="true"><a href="application.html">PROCESS</a></li>
+                    <li class="active" aria-hidden="true"><a href="documents.html">DOCUMENTS</a></li>
+                    <li class="active" aria-hidden="true"><a href="contactus.php">CONTACT</a></li>
+                </ul>
+            </nav>
+       </header> 
 
-        <div class="">
-            <div class="document-cards">
-                <p class="text-2">#1</p>
+       <section class="process">
+        <h3 class="fw-semi-bold fs-secondary-heading text-center scale-in-center">Application Process</h3>
+
+        <div class="flex-cards">
+            <div class="img-card scale-in-center">
+                <p>Process</p>
+            </div>
+            <div class="card scale-in-center">
+                <p class="fs-primary-heading">Step 1</p>
                 <p class="">Share your details of student/co-applicant with representatives of LendRight and share your consent with them to share these details with lenders</p>
             </div>
-            <div class="document-cards">
-                <p class="text-2">#2</p>
+            <div class="card scale-in-center">
+                <p class="fs-primary-heading">Step 2</p>
                 <p class="">LendRight will reach out to different lenders and connect them with student/co-applicant</p>
             </div>
     
-            <div class="document-cards">
-                <p class="text-2">#3</p>
+            <div class="card scale-in-center">
+                <p class="fs-primary-heading">Step 3</p>
                 <p class="">After receiving your documents and details, lenders will initiate eligibility process and comeback with respective offerings</p>
             </div>
     
-            <div class="document-cards">
-                <p class="text-2">#4</p>
+            <div class="card scale-in-center">
+                <p class="fs-primary-heading">Step 4</p>
                 <p class="">LendRight will assist students to negotiate and assist in disbursement planning</p>
+            </div>
+
+            <div class="img-card-2 scale-in-center">
+                <p></p>
             </div>
         </div>
     </section>
-  
 
    <footer class="footer">
         <div>
@@ -68,4 +81,5 @@
         </div>
    </footer>
     </body>
+    
 </html>

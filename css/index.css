@@ -1001,7 +1001,8 @@ th, tr, td {
         }
 
     .card {
-        width: 30vh;
+        width: 80vw;
+        height: 40vh;
     }
 
     .document-cards {
@@ -1148,13 +1149,13 @@ th, tr, td {
 /* revised sections and fonts*/
 
 .section-2 {
-    height: 100svh;
+    height: auto;
     background: url(/img/bg002.png);
     background-size: cover;
     padding-top: 12svh;
     padding-bottom: 12svh;
     padding-inline: 10svw;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     overflow: auto;
     
     
@@ -1171,6 +1172,7 @@ th, tr, td {
     .section-2 {
         background-image: url(../img/bg010.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
         background-blend-mode: overlay; 
+        padding-bottom: 25vh;
     }
 
     .section-2 h3{
@@ -1192,7 +1194,7 @@ th, tr, td {
     background-position: fixed;
     z-index: -100;
     gap: var(--gap, 5rem);
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     overflow: auto;
     
 }
@@ -1211,7 +1213,8 @@ th, tr, td {
         background-image: url(../img/bg010.jpg), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1));
         background-blend-mode: overlay;
         background-position: center;
-        gap: var(--gap, 4rem);
+        gap: var(--gap, 1.5rem);
+        padding-top: 30vh;
     }
 }
 
@@ -1231,16 +1234,15 @@ h1 {
 
 
 .section-3 {
-    height: 100svh;
+    height: auto;
     background: url(/img/bg002.png);
     background-size: cover;
     padding-top: 12svh;
     padding-bottom: 12svh;
     padding-inline: 10svw;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     overflow: auto;
-    scroll-snap-type: y mandatory;
-    scroll-snap-align: start;
+    
 }
 
 @media (max-width: 1000px) {
